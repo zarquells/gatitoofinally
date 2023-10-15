@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(204, 204, 204);
+}
+
+h1 {
+    font-size: 34px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-shadow: 2px 2px rgba(80, 78, 78, 0.5);
+}
+
+.imge {
+    position: relative;
+}
+
+img{
+    width: 300px;
+    display: flex;
+    position: relative;
+    margin: 30px auto 0;
+    transition-property: width;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transform-origin: center;
+}
+
+img.gato2:hover{
+    width: 400px;
+}
+
